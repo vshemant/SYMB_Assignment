@@ -1,0 +1,107 @@
+/*1280 px media*/
+@media(max-width:1280px){
+
+.container.container-header {
+    max-width: 90%;
+}
+#navbarSupportedContent li a {
+    padding: 10px 12px;
+}
+}
+/*1199*/
+@media(max-width:1199px){
+  .container.container-header {
+    max-width: 100%;
+  }
+}
+
+/*1024*/
+@media(max-width:1024px){
+  
+}
+/*991*/
+@media(max-width:991px){
+  .mobile-toggal {
+     display: block;
+    left: 0;
+    position: absolute;
+    margin-left: 3rem;
+    border: none;
+    background: transparent;
+}
+.navbar-brand.logodv {
+    margin-left: 7rem;
+}
+.showmenu{
+	 left:0;
+}
+
+#navbarSupportedContent li a {
+    padding: 10px 8px;
+}
+.mobget{
+    display: block;
+ }
+.align-items-center {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.footmenu {
+      padding-left: 0;
+    justify-content: flex-start;
+}
+.footmenu li a {
+    padding: 0px 0px 10px;
+    font-size: 14px;
+  }
+  .footmenu li {
+    padding: 10px 0px;
+    padding-right: 18px;
+}
+.footmenu li:last-child:before {
+    content: '|';
+    position: absolute;
+    left: -8px;
+    top: 15px;
+}
+.condetail {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+.footer-bottom {
+    padding-top: 0;
+}
+.footer-bottom p {
+    font-size: 14px;
+}
+}
+/*500*/
+@media(max-width: 500px){
+   .navbar-brand.logodv {
+    margin-left: 3rem;
+}
+ .logodv img {
+    width: 150px;
+}
+.mobile-toggal {
+    margin-left: 1rem;
+}
+.btn-theme-1 {
+    padding: 8px 12px;
+}
+.logodv {
+    max-width: 130px;
+}
+}
+/*375*/
+@media(max-width:375px){
+  .logodv {
+    max-width: 100px;
+}
+.logodv img {
+    width: 130px;
+}
+.btn-theme-1 {
+    padding: 8px 10px;
+}
+}
